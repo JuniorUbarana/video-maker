@@ -33,8 +33,7 @@ async function robot() {
     const imagesUrl = response.data.items.map((item) => {
         return item.link;
     })
-
-    
+ 
     return imagesUrl
   }
 
